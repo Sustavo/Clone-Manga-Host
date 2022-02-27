@@ -1,0 +1,7 @@
+.container {
+  background: gray;
+  color: #FFF;
+  padding: 15px;
+  text-align: center;
+  display: none;
+}

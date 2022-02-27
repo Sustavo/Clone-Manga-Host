@@ -1,0 +1,136 @@
+.releases-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 350px;
+  top: 100px;
+  margin-top: -40px;
+  width: 1220px;
+  
+}
+
+.main-releases {
+  display: flex;
+  position: relative;
+  top: -82px;
+  color: #FFFFFF;
+  justify-content: space-between;
+  width: 600px;
+  border-top: 3px solid #BBAB7D;
+  background: #F1ECE8 ;
+  margin-top: 39px;
+}
+
+.data-tag-releases-list{
+  display: flex;
+  background: #BBAB7D;
+  height: 40px;
+  width: 215px;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 0 15px 2px 15px;
+  cursor: pointer;
+}
+
+.data-tag-releases-list > img{
+  width: 25px;
+  height: 25px;
+}
+
+.data-tag-hoje{
+  display: flex;
+  background:#BBAB7D;
+  border-radius: 15px 10px 10px 2px;
+  width: 54px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -9px ;
+  margin-top: -3px;
+}
+
+.lancamento-hoje {
+   background: #F1ECE8 ;
+   width: 610px;
+}
+
+.lancamento-hoje > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.lancamento-hoje ul > li {
+  border-bottom: 1px solid #d1d1d1 ;
+}
+
+.adjust-list-lancamento-hoje {
+  display: flex;
+  gap: 11px;
+}
+
+.adjust-list-lancamento-hoje > img {
+  display: flex;
+  width: 72px;
+  height: 106px;
+  border: 2px solid #fff;
+  margin-bottom: 0.4rem;
+  margin-top: -2.625rem;
+  border-radius: 10px 3px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  cursor: pointer;
+}
+
+.column-lancamento-hoje-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 40px;
+  gap: .5rem;
+}
+
+.column-lancamento-hoje-list > h1 {
+  color: #5a574f;
+  font-size: 30px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  cursor: pointer;
+}
+
+.number-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0;
+  height: 0;
+  background: #bbab7d;
+  color: #fff;
+  font-size: 23px;
+  border-radius: 0px 3px 12px 3px ;
+  box-shadow: 0 -1px 0 0 rgb(0 0 0 / 40%);
+  padding: 15px 21.5px;
+  cursor: pointer;
+}
+
+.lancamento-dev {
+  display: flex;
+  color: #5a574f;
+  font-size: 15px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.loadmore-container {
+  display: flex;
+  background: #9a9a9a;
+  justify-content: center;
+  width: 555px;
+  height: 42px;
+  border-radius: 10px 2px 10px 20px;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  left: 13px;
+  bottom: 10px;
+  cursor: pointer;
+}

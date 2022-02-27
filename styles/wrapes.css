@@ -1,0 +1,149 @@
+.type-switcher {
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background:#656565;
+  width: 1220px;
+  position: relative;
+  left: 350px;
+  border-radius: 15px 15px 2px 15px;
+  margin-top: 1rem;
+  justify-content: center;
+
+}
+
+.type-list {
+  display: flex;
+  align-self: center;
+  gap: 0.6rem;
+  font-size: 17px;
+}
+
+.type-list > li {
+  display: flex;
+  cursor: pointer;
+  background: #D0D0D0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 2px 15px;
+  height: 40px;
+  padding: 0 89.5px;
+  width: 100%;
+}
+
+
+
+/* Carrosel */
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  padding: 45px 0px 68px 10px;
+  border-radius: 2px 15px 2px 15px;
+  background: #E9E9E0;
+  border-top: 4px solid #262626;
+  position: relative;
+  width: 1220px;
+  height: 315px ;
+  left: 350px;
+  margin-top: 1rem;
+}
+
+
+.most-read-title-week {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  background: #262626;
+  width: 210px;
+  border-radius: 2px 15px 2px 15px;
+  color: #FCFBF9;
+  font-size: 17px;
+  align-items: center;
+  position: relative;
+  top: -47px;
+  right: 11px;
+}
+
+.most-read-toggle{
+  background: #656565;
+  height: 25px;
+  width: 25px;
+  border-radius: 2px 8px 2px 8px;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  
+}
+
+.Arrow-icon { 
+  position: relative;
+  left: 6px;
+  top: 5px;
+}
+
+.chapter-number{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 51px;
+  top: 3px;
+  margin-top: -28px;
+  
+}
+
+.chapter-number > li {
+  display: flex;
+  background: #464545;
+  border-radius: 5px 2px 2px 2px;
+  color: #FCFBF9;
+  font-size: 22px;
+  padding: 3px 3px;
+  align-items: center;
+  position: relative;
+  top: -12px;
+  z-index: 1;
+  cursor: pointer;
+  
+}
+
+.webtoon-list {
+  display: flex;
+  gap: 1rem;
+  border-top: 1rem;
+}
+
+.webtoon-list > li > img {
+  width: 120px;
+  height: 180px;
+  border: 2px solid #fff ;
+  cursor: pointer;
+  margin-top: -30px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 10px;
+  border-top-right-radius: 2px ;
+}
+
+.button-chapters {
+  display: flex;
+  margin-top: 0.2rem;
+  gap: 0.85rem;
+}
+
+.button-chapters > li {
+  display: flex;
+  background: #4D4C4A;
+  height: 45px;
+  max-height: 45px;
+  overflow: hidden;
+  width: 122px;
+  border-radius: 5px 2px 5px 5px;
+  color: #FCFBF9;
+  font-size: 15px;
+  padding: 3px 3px;
+  text-align: center;
+  align-items:  center;
+  justify-content: center;
+  cursor: pointer;  
+}

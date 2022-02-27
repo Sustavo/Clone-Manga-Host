@@ -1,0 +1,65 @@
+.banner {
+  height: 150px;
+
+}
+
+.banner > img {
+  width: 100%;
+}
+
+.button-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.buttons-banner {
+  display: flex;
+  gap: 0.4rem;
+  font-size: 15px;
+  transition: 0.3s;
+  width: 1250px;
+}
+
+.btnbanner {
+  display: flex;
+  border: none;
+  padding: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px 2px 10px 15px;
+  color: #ffffff;
+  height: 45px;
+  align-items: center;
+  font-weight: bold;
+  
+}
+
+.btnbanner-beige {
+  background-color: rgb(202, 193, 180);
+}
+
+.btnbanner-red {
+  background-color: rgb(194, 120, 120);
+}
+
+.btnbanner-black {
+  background-color: rgb(110, 110, 121);
+}
+
+.btnbanner-beige2 {
+  background-color: rgb(212, 197, 194);
+}
+
+.btnbanner-light-gray{
+  background-color: rgb(131, 132, 134);
+}
+
+.btnbanner-yellow {
+  background-color: rgb(238, 227, 159);
+}
+
+.btnbanner-blue {
+  background-color: rgb(123, 126, 155);
+}

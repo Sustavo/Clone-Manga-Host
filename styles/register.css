@@ -1,0 +1,65 @@
+.right-side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 978px;
+    bottom: 2177px;
+    width: 591px;
+}
+
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 585px;
+    height: 130px;
+    background: #F4F0CA;
+    text-align: center;
+    padding: 5px;
+    box-shadow: rgba(212, 206, 194) 0px 0px 0px 1px inset, rgb(204, 196, 181) 0px 0px 0px .1px;
+    border-radius: 8px 10px 2px 6px;
+    cursor: pointer;
+    position: relative;
+    left: 6px;
+}
+
+.register > i {
+    color: #842626;
+    font-size: 13.5px;
+    box-sizing: border-box;
+}
+
+
+.register-ambient {
+    display: flex;
+    background: #842626;
+    width: 555px;
+    height: 35px;
+    border-radius: 5px 10px 0 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 8px;
+}
+
+.botton-register {
+    color: #fff;
+}
+
+/* ID */
+
+#nuuvem {
+    display: flex;
+    width: 28px;
+    height: 28px;
+}
+
+#right-arrow {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: 208px;
+    top: 3px;
+}

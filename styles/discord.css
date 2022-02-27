@@ -1,0 +1,144 @@
+.discord {
+    width: 100%;
+    height: 313px;
+    background: #FFFFFF;
+    position: relative;
+}
+
+.discord-title{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background-color: #FFFFFF;
+    border-top: 4px solid #738CD9;
+    border-radius: 2px 15px 0px 0px;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    
+    
+
+}
+
+.text-title {
+    display: flex;
+    align-items: center;
+}
+
+.text-title > img  {
+    width: 25px;
+    height: 25px;
+    
+}
+
+.text-discord {
+    position: relative;
+    color: #7289DA;
+    font-size: 22px;
+    font-weight: bold;
+    left: 20px;
+    
+}
+
+.discord-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 76px;
+    background: #858A9A;
+    border-radius: 12px 10px 0 0 ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.members-online-discord {
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.members-online-discord > b {
+    font-weight: bold;
+}
+
+.discord-logo {
+    width: 125px;
+    height: 35px;
+}
+
+.discord-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 145px;
+    background: #282929;
+}
+
+.discord-section > ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.members-discord {
+    color: #6E6F70;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.members-discord-arrange {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+    gap: 4px;
+}
+
+.members-discord-arrange > li {
+    color: #6E6F70;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.members-discord-arrange > img {
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+}
+
+.discord-footer {
+    display: flex;
+    background: #282929;
+    border-top: 1.5px solid #1B1B1C ;
+    width: 100%;
+    height: 42px;
+    align-self: center;
+}
+
+.voice-chat {
+    display: flex;
+    color: #454547;
+    margin-left: 20px;
+    font-size: 15px;
+    align-items: center;
+    gap: 16.5rem ;
+}
+
+.connect {
+    width: 122px;
+    height: 32px;
+    background: #383939;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

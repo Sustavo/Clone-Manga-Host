@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manga Livre</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/nav-bar.css" />
+    <link rel="stylesheet" href="/styles/banner.css">
+    <link rel="stylesheet" href="/styles/wrapes.css">
+    <link rel="stylesheet" href="styles/releases list.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="stylesheet" href="styles/most read.css">
+    <link rel="stylesheet" href="styles/discord.css">
+    <link rel="stylesheet" href="styles/featured group.css">
+    <link rel="stylesheet" href="styles/just added.css">
+    <link rel="stylesheet" href="styles/just finished.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <script src="Scripts/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- BARRA PRINCIPAL -->
+
+      <div class="navbar">
+        <div class="main-nav-bar">
+          <div class="navbar-logo">
+            <img
+              id="main-logo"
+              src="/assets/img aleatorio/logo.png"
+              alt="Logo da página mangalivre"
+            />
+          </div>
+          
+          <ul class="navbar-list">
+            <li class="manga" class="button">Mangás</li>
+            <li class="categorias">Categorias</li>
+            <li class="Grupos">Grupos</li>
+          </ul>
+          <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Pesquisar" />
+            <a href="#" class="search-btn">
+              <img src="/assets/svg aleatorios/Lupa.svg" alt="Lupa" width="20" height="20" />
+            </a>
+          </div>
+          <div class="login">
+            <button href="" id="login-button" class="btn btn-success">
+              <img
+                src="/assets/svg aleatorios/image.svg"
+                class="logo-login"
+                alt=""
+                height="30"
+                width="30"
+              />Login
+            </button>
+          </div>
+        </div>
+        
+
+        <!-- SUB-BARRA -->
+
+        <div class="second-nav-bar">
+          <div class="second-main">
+            <ul class="second-navbar-list">
+              <li>Destaquesㅤ</li>
+              <li>Mais Lidos Da Semanaㅤ</li>
+              <li>Lançamentosㅤ</li>
+              <li>Mangás Mais Lidosㅤ</li>
+              <li>Recém Adicionadosㅤ</li>
+              <li id="remove-border">Recém Finalizados</li>
+            </ul>
+          </div>
+          <div>
+            <ul class="second-main-mangas">
+              <li>Todos (A-Z)ㅤ</li>
+              <li>Melhores Notasㅤ</li>
+              <li>Mais Lidosㅤ</li>
+              <li>Favoritosㅤ</li>
+              <li>Recém Atualizadosㅤ</li>
+              <li>Número de Capítulosㅤ</li>
+              <li id="remove-border">Recém Finalizados</li>
+            </ul>
+          </div>
+
+          <div class="second-main-categorias">
+            <li>Ordem Alfabéticaㅤ</li>
+            <li id="remove-border">Número de Mangás</li>
+          </div>
+
+          <div class="second-main-Grupos">
+            <li>Ordem Alfabéticaㅤ</li>
+            <li>Mais Curtidasㅤ</li>
+            <li id="remove-border">Número de Mangás</li>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <img src="/assets/img aleatorio/banner ippo.png" alt="">
+      </div>
+    </header>
+
+    
+    <section>
+
+      <!-- Lista De Mais Lidos da semana -->
+
+      <div class="button-list">
+        <ul class="buttons-banner">
+          <li><button href="#" class="btnbanner btnbanner-blue">Reverse Villain 94</button></li>
+          <li><button href="#" class="btnbanner btnbanner-yellow">Yowamushi Pedal 670</button></li>
+          <li><button href="#" class="btnbanner btnbanner-beige">Komi-san wa, Community-shou desu. 337</button></li>
+          <li><button href="#" class="btnbanner btnbanner-red">Hajime no Ippo 1368</button></li>
+          <li><button href="#" class="btnbanner btnbanner-black">Mokushiroku no Yonkishi 48</button></li>
+          <li><button href="#" class="btnbanner btnbanner-beige2">Overgeared (Team Argo) 112</button></li>
+          <li><button href="#" class="btnbanner btnbanner-light-gray">Reincarnation Of The Battle God 34</button></li>
+        </ul>
+      </div>
+
+      <div class="wrapes">
+        <div class="type-switcher">
+          <ul class="type-list">
+            <li>Mangás</li>
+            <li>Manhuas</li>
+            <li>Webtoons</li>
+            <li>Novels</li>
+            <li>Todos</li>
+          </ul>
+        </div>
+
+          <div class="carousel">
+            <div class="popular-week">
+              <h2 class="most-read-title-week">
+                <i>Mais Lidos da Semana</i>
+                <span class="most-read-toggle">
+                  <img src="assets/svg aleatorios/arrow-icon.svg" class="Arrow-icon"
+                   alt=""
+                   height="12"
+                   width="12">
+                </span>
+              </h2>
+              
+            <div class="carousel-webtoon">
+              <ul class="chapter-number">
+                <li>85</li>
+                <li>40</li>
+                <li>143</li>
+                <li>32</li>
+                <li>86</li>
+                <li>98</li>
+                <li>24</li>
+                <li>119</li>
+                <li>38</li>
+              </ul>
+              <ul class="webtoon-list">
+                <li>
+                  <img src="assets/lidos da semana/Daughter of the archmage.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/8 keullaeseu Mabeobsaui Hoegwi - Revolution of the 8th Class Mage.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/doctor Elise.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/How to Get My Husband on My Side.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/Jibaku Shounen Hanako-kun.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/Noragami.png" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/Please Give Me the Pacifier.png" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/Suddenly Became A Princessa One Day.jpg" alt="">
+                </li>
+                <li>
+                  <img src="assets/lidos da semana/Under The Oak Tree.jpg" alt="">
+                </li>
+              </ul>
+
+              <ul class="button-chapters">
+                <li>Daughter of the archmage</li>
+                <li>8 keullaeseu Mabeobsaui Hoegwi - Revolution of the 8th Class Mage</li>
+                <li>Doctor Elise</li>
+                <li>How to Get My Husband on My Side</li>
+                <li>Jibaku Shounen Hanako-kun</li>
+                <li>Noragami</li>
+                <li>Please Give Me the Pacifier</li>
+                <li>Suddenly Became A Princess One Day</li>
+                <li>Under The Oak Tree</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lista De Lançamentos -->
+
+      <div class="releases-list">
+
+        <div class="lancamento-hoje">
+          <div class="main-releases">
+            <div class="data-tag-releases-list">
+              <h2>Lista de Lançamentos</h2>
+              <img src="assets/svg aleatorios/arrow-icon direita.svg" alt="" class="arrow-right">
+            </div>
+            <div class="data-tag-hoje">
+              <h3>Hoje</h3>
+            </div>
+          </div>
+
+          <ul>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Akagami no Shirayuki-hime.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                  <h1>Akagami no Shirayuki-hime</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Esquiloflamejante08</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Bakemonogatari.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Bakemonogatari</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Valhalla Scanlator</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Gomashio to pudding.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Gomashio to pudding</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Runnos Translations</span>
+                </div>
+              </div>
+            </li> 
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Boku to Kimi no Taisetsu na Hanashi.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Boku to Kimi no Taisetsu na Hanashi</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">InBeginner Scan</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Hajirau Kimi ga Mitainda.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Hajirau Kimi ga Mitainda</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Mundo Mangá-Kun</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Hamuko to Gao-kun.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Hamuko to Gao-kun</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Momo no Hana Scan, Rainbow Fairy Scan</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Hanma Baki.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Hanma Baki</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Leahpar Scans</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Hyakuma no Aruji.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Hyakuma no Aruji</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Blizzard Scan</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Moto Sekai 1-i no Sub-Chara Ikusei Nikki Hai Player Isekai wo Kouryakuchuu!.png" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Moto Sekai 1-i no Sub-Chara Ikusei Nikki: Hai Player, Isekai wo Kouryakuchuu!</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Fudido Scanlator</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Otogi Bukkoroshiamu.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Otogi Bukkoroshiamu</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Império Scans</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Rakudai Kenja no Gakuin Musou Nidome no Tensei S.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Soda Scan</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Shiori Experience Jimi na Watashi to Hen na Ojisan.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Shiori Experience: Jimi na Watashi to Hen na Ojisan</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Anima Regia</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Sol Negro.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Sol Negro</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Sol Negro</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Tokyo Revengers.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Tokyo Revengers</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Tekkadan Scan, Pochita Scan</span>
+                </div>
+              </div>
+            </li>
+            <li id="remove-border">
+              <div class="adjust-list-lancamento-hoje">
+                <img src="assets/Lista de lancamentos/Vigilante Boku no Hero Academia Illegals.jpg" alt="">
+                <div class="column-lancamento-hoje-list">
+                 <h1>Vigilante: Boku no Hero Academia Illegals</h1>
+                  <span class="number-column">100</span>
+                  <span class="lancamento-dev"><img src="assets/img aleatorio/bonecos grupo.jfif" alt="">Coquinha gelada scans</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="loadmore-container">
+            <div class="loadmore">
+              <img src="assets/img aleatorio/3 pontos.png" alt="">
+             </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right Side -->
+
+      <div class="right-side">
+
+        <!-- Register -->
+
+        <div class="register">
+          <img src="assets/svg aleatorios/nuuvem.svg" alt="" id="nuuvem">
+          <i>Disponibilize capítulos para ler OFFLINE em seu celular, basta ser um usuário cadastrado!</i>
+          <div class="register-ambient">
+            <span class="botton-register">
+              Okay, Vamos lá! <img src="assets/svg aleatorios/seta direita.svg" alt="" id="right-arrow">
+            </span>
+          </div>
+          
+      </div>
+
+      <!-- Mais Lidos -->
+      <div class="most-read">
+        <h2 class="most-read-title">
+          <i>Títulos mais lidos</i>
+        </h2>
+
+        <ul class="most-read-button">
+          <li>Kimetsu No Yaiba</li>
+          <li>Tokyo Revengers</li>
+          <li>Boku no Hero Academia</li>
+          <li>One Piece</li>
+          <li>Black Clover</li>
+          <li>One Punch Man</li>
+        </ul>
+
+        <ul class="most-read-imgs">
+          <li><img src="assets/Mais Lidos/Kimetsu No Yaiba.jpg" alt="">
+          <b>#01</b></li>
+          <li><img src="assets/Mais Lidos/tokyo revengers.jpg" alt="">
+          <b>#02</b>
+          </li>
+          <li><img src="assets/Mais Lidos/Boku no Hero.jpg" alt="">
+          <b>#03</b>
+          </li>
+          <li><img src="assets/Mais Lidos/one piece.jpg" alt="">
+          <b>#04</b>
+          </li>
+          <li><img src="assets/Mais Lidos/Black Clover.jpg" alt="">
+          <b>#05</b>
+          </li>
+          <li><img src="assets/Mais Lidos/One Punch Man.jpg" alt="">
+          <b>#06</b>
+          </li>
+        </ul>
+
+        <div class="loadmore-container-most-read">
+          <div class="loadmore-most-read">
+            <img src="assets/img aleatorio/3 pontos.png" alt="">
+           </div>
+        </div>
+
+      </div>
+
+      <!-- Discord -->
+      <div class="discord">
+        <div class="discord-title">
+          <div class="text-title">
+            <img src="assets/svg aleatorios/text box.svg" alt="">
+            <span class="text-discord">
+              Fórum das séries em destaque!
+            </span>
+          </div>
+        </div>
+
+        <div class="discord-header">
+          <img src="assets/discord/discord logo.png" alt="" class="discord-logo">
+          <span class="members-online-discord">
+            <b>5069</b> Members Online
+          </span>
+        </div>
+
+        <div class="discord-section">
+          <span class="members-discord">
+            MEMBERS ONLINE
+          </span>
+
+          <ul>
+            <div class="members-discord-arrange">
+              <img src="assets/discord/homi1.jpg" alt="">
+              <li>Gazolaina</li>
+            </div>
+
+            <div class="members-discord-arrange">
+              <img src="assets/discord/homi 2.jpg" alt="">
+              <li>Buizel Pingu</li>
+            </div>
+
+            <div class="members-discord-arrange">
+              <img src="assets/discord/homi3.jpg" alt="">
+              <li>loud jotas</li>
+            </div>
+
+            <div class="members-discord-arrange">
+              <img src="assets/discord/homi4.jpg" alt="">
+              <li>Kadu Maveriick</li>
+            </div>
+          </ul>
+
+        </div>
+
+        <div class="discord-footer">
+          <span class="voice-chat">
+            Free voice chat from Discord
+
+            <button class="connect">Connect</button>
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Grupos em Destaque -->
+
+      <div class="featured-group">
+        <h2 class="featured-group-title">
+          <img src="assets/grupo em destaque/3pessoas.svg" alt="">
+          <i>Grupos em Destaque</i>
+        </h2>
+
+        <ul class="translators">
+          
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>199</span><b>mangás</b>
+          </li>
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>21</span><b>mangás</b>
+          </li>
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>103</span><b>mangás</b>
+          </li>
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>72</span><b>mangás</b>
+          </li>
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>38</span><b>mangás</b>
+          </li>
+          <li>
+            <img src="assets/grupo em destaque/livros.svg" alt="">
+            <span>116</span><b>mangás</b>
+          </li>
+        </ul>
+
+        <ul class="translators-imgs">
+          <li><img src="assets/grupo em destaque/Gekkou Scans.png" alt="">
+          <b>Gekkou Scans</b></li>
+          <li><img src="assets/grupo em destaque/Sumire Scan.jpg" alt="">
+          <b>Sumire Scan</b>
+          </li>
+          <li><img src="assets/grupo em destaque/Comic Space.jpg" alt="">
+          <b>Comic Space</b>
+          </li>
+          <li><img src="assets/grupo em destaque/OTKsScanlator.jpg" alt="">
+          <b>OTKsScanlator</b>
+          </li>
+          <li><img src="assets/grupo em destaque/Kedaruge Scans.jpg" alt="">
+          <b>Kedaruge Scans</b>
+          </li>
+          <li><img src="assets/grupo em destaque/Yaoi Home.jpg" alt="">
+          <b>Yaoi Home</b>
+          </li>
+        </ul>
+
+        <ul class="featured-group-social-media">
+          <li>
+            <img src="assets/svg aleatorios/facebook icon.svg" alt="">
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+            <img src="assets/svg aleatorios/discord icon.svg" alt="">
+          </li>
+          <li>
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+          </li>
+          <li>
+            <img src="assets/svg aleatorios/facebook icon.svg" alt="">
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+          </li>
+          <li>
+            <img src="assets/svg aleatorios/facebook icon.svg" alt="">
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+            <img src="assets/svg aleatorios/discord icon.svg" alt="">
+          </li>
+          <li>
+            <img src="assets/svg aleatorios/facebook icon.svg" alt="">
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+            <img src="assets/svg aleatorios/discord icon.svg" alt="">
+          </li>
+          <li>
+            <img src="assets/svg aleatorios/facebook icon.svg" alt="">
+            <img src="assets/svg aleatorios/clipe.svg" alt="">
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Recém Adicionados -->
+
+      <div class="just-added">
+
+        <h2 class="just-added-title">
+          <i>Recém Adicionados</i>
+        </h2>
+
+        <ul class="just-added-list">
+          <li>
+            <img src="assets/Recém Adicionados/Dungeon Reset.jpg" alt="">
+            <div class="column-just-added-list">
+              <h1>Dungeon Reset</h1>
+              <span class="just-added-subtitle">Daul & Ant Studio (Arte)</span>
+              <ul>
+                <li class="just-added-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>8.00</span>
+                </li>
+                <li>Ação</li>
+                <li>Aventura</li>
+                <li>Fantasia</li>
+              </ul>
+              <p>[A Dungeon está resetando.] Quando a Dungeon é completamente explorada e suas armadilhas são ativadas, ela é resetada automaticamente para os próximos ‘jogadores’. Mas esses resets não funcionam em mim?!</p>
+            </div>
+
+          </li>
+          <li>
+            <img src="assets/Recém Adicionados/The Tyrant's Beloved Doll (Novel).jpg" alt="">
+            <div class="column-just-added-list">
+              <h1>The Tyrant's Beloved Doll (Novel)</h1>
+              <span class="just-added-subtitle">Baek Yi Dam</span>
+              <ul>
+                <li class="just-added-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>6.11</span>
+                </li>
+                <li>Drama</li>
+                <li>Fantasia</li>
+                <li>Histórico</li>
+              </ul>
+              <p>ma maldição que descerá sobre a Família Real do Império de Den Helder. "Um monstro de cabelos negros e olhos vermelhos destruirá tudo" Settsu, que tinha cerca de 20 anos...</p>
+            </div>
+
+          </li>
+          <li id="remove-border">
+            <img src="assets/Recém Adicionados/Trash of the Count' s Family.jpg" alt="">
+            <div class="column-just-added-list">
+              <h1>Trash of the Count's Family</h1>
+              <span class="just-added-subtitle">Yoo Ryeo-Han & Pan4 (Arte)</span>
+              <ul>
+                <li class="just-added-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>8.26</span>
+                </li>
+                <li>Ação</li>
+                <li>Aventura</li>
+                <li>Comédia</li>
+              </ul>
+              <p>“Não posso continuar sendo um lixo pra sempre.” Após ler os 5 primeiros volumes da novel [O Nascimento de um Herói], Kim Rok-Soo dorme e acorda em outro mundo.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Recém Finalizados -->
+
+      <div class="just-finished">
+        <h2 class="just-finished-title">
+          <i>Recém Finalizados</i>
+        </h2>
+
+        <ul class="just-finished-list">
+          <li>
+            <img src="assets/Recém Finalizados/I Picked Up the Second Male Lead After the Ending (Novel).jpg" alt="">
+            <div class="column-just-finished-list">
+              <h1>I Picked Up the Second Male Lead After the Ending (Novel)</h1>
+              <span class="just-finished-subtitle">Hwang Do Tol</span>
+              <ul>
+                <li class="just-finished-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>0.00</span>
+                </li>
+                <li>Comedia</li>
+                <li>Fantasia</li>
+                <li>Romance</li>
+              </ul>
+              <p>O que você faria se renascesse como um personagem de seu romance favorito? Para Peony, uma ávida fã de “A Canção de Askar”, a resposta é simples: case com seu personagem favorito, é claro!</p>
+            </div>
+
+          </li>
+          <li>
+            <img src="assets/Recém Finalizados/Heavenly Martial God .png" alt="">
+            <div class="column-just-finished-list">
+              <h1>Heavenly Martial God</h1>
+              <span class="just-finished-subtitle">Dam Ho, 담호 </span>
+              <ul>
+                <li class="just-finished-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>6.57</span>
+                </li>
+                <li>Ação</li>
+                <li>Fantasia</li>
+              </ul>
+              <p>Quem é esse garoto de aparência esquisita?” Sou o Incomparável Ha Hoo Young, o maior artista marcial que reina em todas as terras! Não há ninguém que seja páreo para mim!</p>
+            </div>
+
+          </li>
+          <li id="remove-border">
+            <img src="assets/Recém Finalizados/Lady Rose wa Heimin ni Naritai.jpg" alt="">
+            <div class="column-just-finished-list">
+              <h1>Lady Rose wa Heimin ni Naritai</h1>
+              <span class="just-finished-subtitle">Kooriame ( & Hidaka, Nami (Arte)</span>
+              <ul>
+                <li class="just-finished-star000">
+                  <img src="assets/Recém Adicionados/star-rating.webp" alt="">
+                  <span>6.44</span>
+                </li>
+                <li>Fantasia</li>
+                <li>Romance</li>
+                <li>Shoujo</li>
+              </ul>
+              <p>Devido a falsas acusações, Felicia Suwarose conseguiu que seu compromisso com sua Alteza fosse anulado e consequentemente expulsa de sua família. Não há nada mais do que mal-entendidos em torno dela.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+      <!-- Footer -->
+
+      <footer>
+        <div class="social-media-footer">
+          <div class="discord-and-email-footer">
+            <div class="discord-footer-social-media">
+              <img src="assets/footer/discord.webp"  alt="">
+            </div>
+            <div class="email-footer-social-media">
+              <img src="assets/footer/mail.webp" alt="">
+            </div>
+          </div>
+          <div class="back-to-top">
+            <h2>TOPO</h2>
+            <img src="assets/footer/arrow-top.webp" alt="">
+           </div> 
+        </div>
+
+        <div class="credits-footer">
+          <span class="Manga-livre-footer">MangaLivre © 2022</span>
+          <span class="recaptcha-footer">This site is protected by reCAPTCHA and the Google&nbsp<span class="black-footer-laters">Privacy Policy</span>&nbspand&nbsp<span class="black-footer-laters">Terms of Service</span>&nbspapply.</span>
+          
+          
+        </div>
+
+        
+
+    
+
+      </footer>
+      
+
+
+
+
+    
+  </body>
+</html>
